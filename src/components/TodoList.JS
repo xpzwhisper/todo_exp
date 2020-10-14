@@ -1,8 +1,10 @@
 import React from 'react';
 
-const TodoList = () => {
+const TodoList = ({inputText}) => {
     return(
-        <div>This is a test div</div>
+        <div className="todo-container">
+            <ul className="todo-list"></ul>
+        </div>
     );
 }
 export default TodoList;
