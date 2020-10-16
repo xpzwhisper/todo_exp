@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Todo = ({text, id}) => {
+const Todo = ({text}) => {
 
     return(
         <div className="todo">
@@ -10,6 +10,7 @@ const Todo = ({text, id}) => {
             </button>
             <button className="trash-btn">
                 <i className="fas fa-trash"></i>
+                
             </button>
         </div>
     );
