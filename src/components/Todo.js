@@ -2,7 +2,10 @@ import React from 'react'
 
 const Todo = ({text, todo, todos, setTodos}) => {
     const deleteHandler = () => {
+        //console.log(e);
         setTodos(todos.filter((el) => el.id !== todo.id ));
+        
+        
         
         
     };
