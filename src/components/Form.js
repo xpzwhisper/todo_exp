@@ -21,7 +21,7 @@ const Form = ({setInputText, setTodos, todos, inputText}) => {
             </button>
             <div className="select">
                 <select name="todos" className="filter-todo" id="">
-                    <option value="all">All</option>
+                    <option value="all">Alla ööö</option>
                     <option value="completed">Completed</option>
                     <option value="uncompleted">Uncompleted</option>
                 </select>
